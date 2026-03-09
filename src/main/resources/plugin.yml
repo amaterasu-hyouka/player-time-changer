@@ -1,6 +1,6 @@
 name: PlayerTimeChanger
 version: '1.0-SNAPSHOT'
-main: jp.amaterasu_hyouka.playertimechanger.PlayerTimeChanger
+main: jp.amaterasu_hyouka.playertimechanger.PlayerTimeChangerPlugin
 api-version: '1.21'
 authors: [amaterasu_hyouka]
 description: MinecraftのPlayerごとに時間を設定するBukkit/Paper用のPlugin

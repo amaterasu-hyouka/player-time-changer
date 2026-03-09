@@ -1,6 +1,6 @@
-package jp.amaterasu_hyouka.playertimechanger;
+package jp.amaterasu_hyouka.playertimechanger.utils;
 
-import org.bukkit.Bukkit;
+import jp.amaterasu_hyouka.playertimechanger.PlayerTimeChangerPlugin;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 public final class Log {
 
     private static final String PREFIX = "> ";
-    private static final Logger LOGGER = PlayerTimeChanger.getInstance().getLogger();
+    private static final Logger LOGGER = PlayerTimeChangerPlugin.getInstance().getLogger();
 
     private Log() {}
 
